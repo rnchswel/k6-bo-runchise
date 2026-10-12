@@ -1,0 +1,16 @@
+curl --url 'https://master-server.runchise.com/api/report/inventory_movements?start_date=04%2F10%2F2026&end_date=10%2F10%2F2026&is_select_all_location=true&show_non_inventory_products=false&page=1&item_per_page=100' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyNDQ1LCJqdGkiOiI0OWM4YTMzZDg3N2U5ZDExM2NjYTQ3ZmUyODFlMmVhOSIsImlhdCI6MTc4OTAyMTQ1NywiZXhwIjoxNzk2Mjc5MDU3fQ.kZLFUxSs84Svoh50kRxEarcgTWnxhB9ZOSVGiRKgBZE' \
+  -H 'brand-uuid: 74dcf826-aaa2-47bd-a341-aac602c544a8' \
+  -H 'if-none-match: W/"ff690712711b2290251edec0fe254d1f"' \
+  -H 'origin: https://dev.runchise.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://dev.runchise.com/' \
+  -H 'sec-ch-ua: "Chromium";v="152", "Not?A_Brand";v="24", "Google Chrome";v="152"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36'
